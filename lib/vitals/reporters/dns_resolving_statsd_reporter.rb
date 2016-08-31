@@ -1,4 +1,4 @@
-require 'statsd-ruby'
+require 'github/statsd'
 require 'resolv'
 
 module Vitals::Reporters
