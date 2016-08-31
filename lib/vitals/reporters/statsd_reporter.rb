@@ -1,3 +1,4 @@
+require 'bundler/setup'
 require 'statsd-ruby'
 
 module Vitals::Reporters
