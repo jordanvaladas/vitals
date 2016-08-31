@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "statsd-ruby", "~> 1.3.0"
+  spec.add_runtime_dependency "statsd-ruby", "~> 0.4.0.github"
 
   spec.add_development_dependency "guard-rubocop", "~> 1.2.0"
   spec.add_development_dependency "guard-minitest", "~> 2.4.4"
