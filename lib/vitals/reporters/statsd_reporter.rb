@@ -1,5 +1,4 @@
-require 'bundler/setup'
-require 'statsd-ruby'
+require 'github/statsd'
 
 module Vitals::Reporters
   class StatsdReporter < BaseReporter
